@@ -1,0 +1,39 @@
+.navbar {
+    background-color: rgb(57, 56, 56);
+}
+
+* {
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.fondo-encabezado {
+    background-color: rgb(79, 139, 250);
+}
+
+.fondo-cuerpo {
+    background-color: rgb(180, 201, 241);
+}
+
+.bordes {
+    border-top-style:solid ;
+    border-width: 0.2rem;
+    border-color: rgb(125, 181, 254);
+}
+
+li {
+    list-style-type:square;
+}
+
+li::marker {
+    color: grey;
+}
+
+.posicion {
+    padding-top: 5%;
+}
